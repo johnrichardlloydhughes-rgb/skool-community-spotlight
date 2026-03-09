@@ -616,10 +616,10 @@ function buildCap(){
   const stmt=document.getElementById('fs').value.trim();
   const url=document.getElementById('fu').value.trim();
   const ht=selTags.length?selTags.map(t=>'#'+t.replace(/\s/g,'')).join(' '):'#SkoolOwners';
-  const cap='🔥 Just joined the Skool Owners Network.\n\n'
+  const cap='🔥 This is MY Skool community. Come and check it out!\n\n'
     +(role?'I\'m a '+role+'. ':'')+(stmt||'')
-    +'\n\nIf you run or want to build a thriving Skool community, this is the place to be.\n\n'
-    +ht+' #SkoolOwnersNetwork #Skool #CommunityBuilding'+(url?'\n\n👉 skool.com/'+url:'');
+    +'\n\nClick the link below to visit my community about page and see if it's the right fit for you.\n\n'
+    +ht+' #Skool #CommunityBuilding #OnlineCommunity'+(url?'\n\n👉 skool.com/'+url:'');
   document.getElementById('capTxt').textContent=cap;
 }
 
